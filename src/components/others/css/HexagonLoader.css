@@ -1,0 +1,64 @@
+/* Loader container styles */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: opacity 0.7s ease;
+}
+
+/* SVG container sizing */
+.hexagon-svg {
+  width: 130px;
+  height: 130px;
+}
+
+/* Hexagon path styling */
+.hexagon-shape {
+  fill: none;
+  stroke: #64ffda;
+  stroke-width: 8px;
+  stroke-linecap: round;      /* Smooth line ends */
+  stroke-linejoin: round;    
+  stroke-dasharray: 620;         /* Adjusted to cover the full path without visible gap */
+  stroke-dashoffset: -620;        /* Start fully hidden */
+  animation:
+    drawHexagon 1s ease forwards,
+    hexGlow 1s ease-in-out infinite alternate;
+  transform: rotate(0.01deg);    /* Safari rendering fix */
+}
+
+/* Keyframe to draw the hexagon */
+@keyframes drawHexagon {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Text styling and animation */
+.fade-in-text {
+  opacity: 0;
+  animation: fadeInText 0.5s ease forwards;
+  fill: #64ffda;
+  font-size: 64px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-anchor: middle;
+}
+
+/* Fade-in scale effect for the text */
+@keyframes fadeInText {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Used to hide the loader after animation */
+.fade-out {
+  opacity: 0;
+}

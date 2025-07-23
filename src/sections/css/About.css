@@ -1,0 +1,83 @@
+.about-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* background-color: pink; */
+}
+
+.about-container .left-section {
+  position: relative;
+  width: 64%;
+  height: 100%;
+  margin-right: 6%; 
+}
+
+.about-container .left-section .header {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.about-container .left-section .paragraph, 
+.list-with-text {
+    color: var(--slate);
+    font-family: var(--font-sans);
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;    
+}
+
+.item-contaiener{
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  margin-top: 30px;
+}
+
+.tech-row {
+  position: relative;
+  width: 90%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tech-item {
+  width: 48%; /* two items per row with some spacing */
+  height: fit-content;
+  border-radius: 6px;
+  margin-top: 10px;
+  text-align: start;
+}
+.about-container .right-section {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  background-color: green;
+}
+
+.outer-cont {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  z-index: 2;
+}
+
+.inner-cont{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 10%;
+  left: 10%;
+  background-color: pink;
+}
+
+.inner-cont:hover{
+  left: 15%;
+}

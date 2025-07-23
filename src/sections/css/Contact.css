@@ -1,0 +1,63 @@
+.contact-main-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: rgb(234, 255, 0); */
+}
+
+.contact-section-heading {
+  font-family: var(--font-mono);
+  font-size: var(--fz-sm);
+  font-size: var(--fz-xl);
+  font-weight: 400;
+  color: var(--green);
+}
+
+.contact-section-motive {
+  margin: 15px 0;
+  font-family: var(--font-sans);
+  font-size: 3vw;
+  font-weight: 600;
+  line-height: 1.1;
+  color: var(--lightest-slate);
+}
+
+.contact-text {
+  margin: 15px 0;
+  color: var(--slate);
+  font-family: var(--font-sans);
+  font-size: var(--fz-xl);
+  line-height: 1.3;
+  text-align: center;
+}
+
+.contact-main-container .btn-container {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-main-container .btn-container * {
+  position: relative;
+  width: fit-content;
+  width: 150px;
+  height: 80%;
+  margin: 0 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-main-container .btn-container .btn-one *,
+.contact-main-container .btn-container .btn-two * {
+  position: absolute;
+  width: 80%;
+}
