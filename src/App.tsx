@@ -1,5 +1,4 @@
 import "./App.css";
-import Social from "./components/Social";
 import { headerAnimationConfig } from "./constants";
 import { email, socialMedia } from "./constants/Constants";
 import Footer from "./components/others/Footer";
@@ -10,6 +9,7 @@ import About from "./sections/About";
 import Experience from "./sections/Experience";
 import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
+import Social from "./components/others/Social";
 
 function App() {
   return (

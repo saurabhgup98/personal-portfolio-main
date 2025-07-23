@@ -47,6 +47,42 @@ export const listOfTechnologies = [
   { technology: "Mysql and MongoDB" },
 ];
 
+export const experience = [
+  {
+    company:"Nessa Software Labs", 
+    profile: "SDE-1 Full stack", 
+    startDate: "Jan 2022", 
+    endDate:"March 2025",
+    details: [
+      "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more",
+      "Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements",
+      "Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders"
+    ]
+  },    
+  {
+    company:"Nessa Software Labs", 
+    profile: "SDE-1 Intern", 
+    startDate: "Aug 2021", 
+    endDate:"Jan 2022",
+    details: [
+      "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more",
+      "Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements",
+      "Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders"
+    ]
+  },
+  {
+    company:"BYjus", 
+    profile: "BDE Technical and Sales", 
+    startDate: "March 2021", 
+    endDate:"August 2021",
+    details: [
+      "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more",
+      "Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements",
+      "Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders"
+    ]
+  },
+]
+
 export const contactSectionDetails = {
   sectionNumber: 4,
   sectionHeading: "What’s Next?",
