@@ -87,7 +87,7 @@ export const contactSectionDetails = {
   sectionNumber: 4,
   sectionHeading: "What’s Next?",
   sectionMotive: "Get in Touch",
-  text: "Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll do my best to get back to you!",
+  text: "I’m currently seeking exciting new job opportunities. If you have a role that aligns with my skills and experience, feel free to reach out. I’m always open to connecting — whether it’s for a potential collaboration, a job opportunity, or simply a conversation",
   buttonTxt: "Email Me",
   contactNumber: "+91-8454900296",
 };
