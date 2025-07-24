@@ -8,9 +8,10 @@ const PrimarySection = () => {
       <div className="heading">Saurabh Gupta.</div>
       <div className="sub-heading">I build things for the web.</div>
       <div className="explaner">
-        I’m a software engineer specializing in building (and occasionally
-        designing) exceptional digital experiences. Currently, I’m focused on
-        building accessible, human-centered products at Upstatement.
+        I'm a software engineer who specializes in web development,
+        transforming thoughtful designs into clean, scalable, and accessible web
+        applications. I focus on writing maintainable code and building
+        human-centered digital products that deliver real value.
       </div>
       <div className="primary-section-btn">
         {/* <button>Hello</button> */}

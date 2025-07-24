@@ -3,6 +3,8 @@ import "./css/About.css";
 import { aboutparagraphData, listOfTechnologies } from "../constants/Constants";
 import SectionHeading from "../components/headers/SectionHeading";
 
+import MyImage from '../assets/saurabh_pic_web.jpeg';
+
 const About: React.FC = () => {
   return (
     <div className="about-container">
@@ -39,7 +41,7 @@ const About: React.FC = () => {
       <div className="right-section">
         <div className="right-section-cont">
           <div className="outer-cont">
-            <img src="https://media.istockphoto.com/id/1435220822/photo/african-american-software-developer.jpg?s=612x612&w=0&k=20&c=JESGRQ2xqRH9ZcJzvZBHZIZKVY8MDejBSOfxeM-i5e4=" alt="" />
+            <img src={MyImage} alt="" />
             <div className="blur"></div>
           </div>
         <div className="inner-cont"></div>
@@ -51,3 +53,5 @@ const About: React.FC = () => {
 };
 
 export default About;
+
+// https://media.istockphoto.com/id/1435220822/photo/african-american-software-developer.jpg?s=612x612&w=0&k=20&c=JESGRQ2xqRH9ZcJzvZBHZIZKVY8MDejBSOfxeM-i5e4=

@@ -123,3 +123,7 @@ button:focus-visible {
   display: flex;
   align-items: center;
 }
+
+html {
+  scroll-behavior: smooth;
+}

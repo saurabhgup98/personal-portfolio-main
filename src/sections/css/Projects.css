@@ -1,20 +1,124 @@
 .projects-main-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background-color: red;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
-.projects-main-container .header-section{
-    position: relative;
-    width: 80%;
-    height: fit-content;
+.projects-main-container .header-section {
+  position: relative;
+  width: 80%;
+  height: fit-content;
 }
 
-.projects-main-container .main-section{
-
+.projects-main-container .main-section {
+  position: relative;
+  width: 100%;
 }
 
-.projects-main-container .others-section{
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 20px;
+}
 
+.project-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.project-card.reverse {
+  flex-direction: row-reverse;
+}
+
+.project-image-wrapper {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.project-image-background {
+  background-color: var(--green);
+  opacity: 0.4;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project-image-background img {
+  height: 90%;
+  width: auto;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+
+.project-content {
+  width: 50%;
+  background-color: transparent;
+  padding-right: 10px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  transform: translateX(10%);
+}
+
+.project-card.reverse .project-content {
+  align-items: flex-start;
+  text-align: left;
+  transform: translateX(-10%);
+}
+
+.project-featured {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 4px;
+  color: var(--green);
+  font-family: var(--font-mono);
+  font-size: var(--fz-xm);
+  line-height: 1.3;
+}
+
+.project-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--lightest-slate);
+  font-family: var(--font-sans);
+  font-size: var(--fz-xxl);
+  line-height: 1.3;
+  font-family: 500;
+}
+
+.project-description {
+  background-color: var(--light-navy);
+  color: var(--green);
+  font-family: var(--font-sans);
+
+  font-size: var(--fz-lg);
+  padding: 30px;
+  margin-left: -30%;
+  border-radius: 8px;
+  text-align: right;
+}
+
+.project-tech {
+  font-size: 14px;
+  font-family: var(--font-sans);
+  font-size: var(--fz-lg);
+  color: var(--lightest-slate);
+}
+
+.projects-main-container .others-section {
 }

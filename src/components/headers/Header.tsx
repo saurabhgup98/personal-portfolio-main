@@ -67,38 +67,40 @@ const Header = ({ animationConfig }: { animationConfig: AnimationConfig }) => {
 
         <div className="nav-links-container">
           <div
-            className="nav-link"
+            className="nav-link"            
             style={{ ...animStyle, animationDelay: delays.item1 }}
           >
             <span>01.</span> 
-            <a href="">About</a>
+            <a href="#about">About</a>
           </div>
           <div
+
             className="nav-link  anim"
             style={{ ...animStyle, animationDelay: delays.item2 }}
           >
             <span>02.</span> 
-            <a href="">Experience</a>
+            <a href="#experience">Experience</a>
           </div>
           <div
             className="nav-link anim"
             style={{ ...animStyle, animationDelay: delays.item3 }}
           >
             <span>03.</span> 
-            <a href="">Work</a>
+            <a href="#projects">Work</a>
           </div>
           <div
             className="nav-link"
             style={{ ...animStyle, animationDelay: delays.item4 }}
           >
             <span>04.</span> 
-            <a href="">Contact</a>
+            <a href="#contact">Contact</a>
           </div>
         </div>
       </div>
 
       <div className="btn-container ">
         <button
+        onClick={() => window.open("/resume.pdf", "_blank")}
           className="btnn anim"
           style={{ ...animStyle, animationDelay: delays.button }}
         >

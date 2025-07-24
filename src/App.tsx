@@ -26,16 +26,16 @@ function App() {
         <div className="section-one">
           <PrimarySection />
         </div>
-        <div className="section-two">
+        <div className="section-two" id="about">
           <About />
         </div>
-        <div className="section-three">
+        <div className="section-three" id="experience">
           <Experience />
         </div>
-        <div className="section-four">
+        <div className="section-four" id="projects">
           <Projects />
         </div>
-        <div className="section-four">
+        <div className="section-five" id="contact">
           <Contact />
         </div>
         <Footer />       

@@ -2,6 +2,7 @@
   position: relative;
   width: 100%;
   height: fit-content;
+  padding: 10px 0;
   /* background-color: pink; */
 }
 
@@ -29,7 +30,7 @@
 
 .explaner {
   position: relative;
-  width: 70%;
+  width: 75%;
   color: var(--slate);
   font-family: var(--font-mono);
   font-size: var(--fz-xl);
@@ -41,7 +42,8 @@
 .primary-section-btn {
   position: relative;
   width: 20%;
-  height: 30px;
+  height: 28px;
+  margin-left: -22px;
   display: flex;
   align-items: center;
   justify-content: center;
