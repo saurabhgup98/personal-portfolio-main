@@ -1,4 +1,4 @@
-import SectionHeading from "../components/headers/SectionHeading";
+import SectionHeading from "../components/ui/SectionHeading";
 import { projects } from "../constants/Constants";
 import "./css/Projects.css";
 

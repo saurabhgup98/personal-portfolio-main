@@ -1,5 +1,5 @@
 import { useState } from "react";
-import SectionHeading from "../components/headers/SectionHeading";
+import SectionHeading from "../components/ui/SectionHeading";
 import { experience } from "../constants/Constants";
 import "./css/Experience.css";
 

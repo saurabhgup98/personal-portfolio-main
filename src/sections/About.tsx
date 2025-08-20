@@ -1,7 +1,7 @@
 import "./css/About.css";
 
 import { aboutparagraphData, listOfTechnologies } from "../constants/Constants";
-import SectionHeading from "../components/headers/SectionHeading";
+import SectionHeading from "../components/ui/SectionHeading";
 
 import MyImage from '../assets/saurabh_pic_web.jpeg';
 

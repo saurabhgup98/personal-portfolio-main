@@ -1,9 +1,9 @@
 import "./App.css";
 import { headerAnimationConfig } from "./constants";
 import { email, socialMedia } from "./constants/Constants";
-import Footer from "./components/others/Footer";
-import HexagonLoader from "./components/others/HexagonLoader";
-import Header from "./components/headers/Header";
+import Footer from "./components/layout/Footer";
+import { HexagonLoader } from "./components/ui/Loader";
+import Header from "./components/ui/Header";
 import PrimarySection from "./sections/PrimarySection";
 import About from "./sections/About";
 import Experience from "./sections/Experience";
