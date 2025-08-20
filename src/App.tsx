@@ -9,7 +9,7 @@ import About from "./sections/About";
 import Experience from "./sections/Experience";
 import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
-import Social from "./components/others/Social";
+import Social from "./components/layout/Social";
 
 function App() {
   return (

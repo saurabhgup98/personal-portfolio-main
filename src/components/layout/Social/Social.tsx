@@ -1,6 +1,6 @@
-import Icon from "../../assets/icons/Icon";
-import type { SocialMediaIconsProp } from "../../interfaces/SocialInterface";
-import "./css/Social.css";
+import Icon from "../../../assets/icons/Icon";
+import type { SocialMediaIconsProp } from "../../../interfaces/SocialInterface";
+import "./Social.css";
 
 const Social: React.FC<SocialMediaIconsProp> = ({ socialMedia }) => {
   return (
