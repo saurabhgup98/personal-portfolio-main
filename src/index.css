@@ -60,3 +60,17 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* Basic styling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  position: relative;
+}
