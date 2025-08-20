@@ -54,4 +54,4 @@ const About: React.FC = () => {
 
 export default About;
 
-// https://media.istockphoto.com/id/1435220822/photo/african-american-software-developer.jpg?s=612x612&w=0&k=20&c=JESGRQ2xqRH9ZcJzvZBHZIZKVY8MDejBSOfxeM-i5e4=
+

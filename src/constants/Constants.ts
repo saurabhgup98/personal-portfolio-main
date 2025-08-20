@@ -99,12 +99,7 @@ export const projects = [
     technologies: ["React", "Typescript", "React Router"],
     imageUrl: PortfolioImg,
   },
-  // {
-  //   title: "Portfolio Website",
-  //   description: "A personal portfolio to showcase skills and projects.",
-  //   technologies: ["React", "Tailwind", "Vercel"],
-  //   imageUrl: "https://via.placeholder.com/500x300?text=Portfolio",
-  // },
+
 ];
 
 

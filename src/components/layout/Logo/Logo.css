@@ -9,7 +9,7 @@
   cursor: pointer;
 }
 
-/* Main hexagon */
+
 .hexagon-outline {
   fill: transparent;
   stroke: #64ffda;
@@ -18,12 +18,12 @@
   pointer-events: all;
 }
 
-/* Hover effect: slight left and up */
+
 .hexagon-logo:hover .hexagon-outline {
-  transform: translate(-6px, -4px); /* ← Moves left and up */
+  transform: translate(-6px, -4px);
 }
 
-/* Right-side glowing lines */
+
 .highlight-line {
   stroke: #64ffda;
   stroke-width: 15px;
@@ -32,13 +32,13 @@
   transition: opacity 0.3s ease, filter 0.3s ease;
 }
 
-/* Strong glow on hover */
+
 .hexagon-logo:hover .highlight-line {
   opacity: 1;
-  filter: drop-shadow(0px 0px 180px #64ffda); /* Thick glow */
+  filter: drop-shadow(0px 0px 180px #64ffda);
 }
 
-/* Center S text */
+
 .logo-text {
   text-anchor: middle;
   font-size: 64px;

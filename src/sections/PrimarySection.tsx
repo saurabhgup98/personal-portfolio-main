@@ -14,7 +14,7 @@ const PrimarySection = () => {
         human-centered digital products that deliver real value.
       </div>
       <div className="primary-section-btn">
-        {/* <button>Hello</button> */}
+
         <PrimaryBtn name="Contact Me" action={() => {}} tooltipText="" />
       </div>
     </div>

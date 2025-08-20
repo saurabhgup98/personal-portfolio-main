@@ -4,7 +4,7 @@
     height: fit-content;
     display: flex;
     flex-direction: column;
-    /* background-color: red; */
+
 }
 
 .exp-main-container .header {
@@ -28,7 +28,7 @@
     width: 25%;
     height: fit-content;
     margin-right: 6%;
-    /* background-color: gray; */
+
 }
 
 .exp-comany-name {
@@ -65,7 +65,7 @@
     position: relative;
     width: 70%;
     height: 400px;
-    /* background-color: pink; */
+
 }
 
 .exp-content-main h3{

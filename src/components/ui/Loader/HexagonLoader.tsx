@@ -13,15 +13,15 @@ const HexagonLoader: React.FC<HexagonLoaderProps> = ({ children }) => {
   useEffect(() => {
     const textTimer = setTimeout(() => {
       setShowText(true);
-    }, 1000); // Show "S" after hexagon finishes drawing
+    }, 1000);
 
     const fadeTimer = setTimeout(() => {
       setFadeOut(true);
-    }, 2000); // Start fading after some delay
+    }, 2000);
 
     const completeTimer = setTimeout(() => {
       setLoadingComplete(true);
-    }, 3000); // Fully remove loader
+    }, 3000);
 
     return () => {
       clearTimeout(textTimer);

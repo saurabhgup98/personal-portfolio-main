@@ -36,17 +36,7 @@ const Projects: React.FC = () => {
       ))}
     </div>
       </div>
-      {/* <div className="others-section">
-            <div className="projects-other-section-heading">
-                Other Noteworthy Projects
-            </div>
-            <div className="view-archive-link"><a href="">view the archive</a></div>
-            <div className="list-other-projects-section">
-                <div className="list-container">
 
-                </div>
-            </div>
-        </div> */}
     </div>
   );
 };

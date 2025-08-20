@@ -1,4 +1,4 @@
-// constants.ts
+
 
 export const headerAnimationConfig = {
   common: {

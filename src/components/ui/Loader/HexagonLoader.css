@@ -1,4 +1,4 @@
-/* Loader container styles */
+
 .loader-container {
   display: flex;
   justify-content: center;
@@ -7,35 +7,35 @@
   transition: opacity 0.7s ease;
 }
 
-/* SVG container sizing */
+
 .hexagon-svg {
   width: 130px;
   height: 130px;
 }
 
-/* Hexagon path styling */
+
 .hexagon-shape {
   fill: none;
   stroke: #64ffda;
   stroke-width: 8px;
-  stroke-linecap: round;      /* Smooth line ends */
+  stroke-linecap: round;
   stroke-linejoin: round;    
-  stroke-dasharray: 620;         /* Adjusted to cover the full path without visible gap */
-  stroke-dashoffset: -620;        /* Start fully hidden */
+  stroke-dasharray: 620;
+  stroke-dashoffset: -620;
   animation:
     drawHexagon 1s ease forwards,
     hexGlow 1s ease-in-out infinite alternate;
-  transform: rotate(0.01deg);    /* Safari rendering fix */
+  transform: rotate(0.01deg);
 }
 
-/* Keyframe to draw the hexagon */
+
 @keyframes drawHexagon {
   to {
     stroke-dashoffset: 0;
   }
 }
 
-/* Text styling and animation */
+
 .fade-in-text {
   opacity: 0;
   animation: fadeInText 0.5s ease forwards;
@@ -46,7 +46,7 @@
   text-anchor: middle;
 }
 
-/* Fade-in scale effect for the text */
+
 @keyframes fadeInText {
   from {
     opacity: 0;
@@ -58,7 +58,7 @@
   }
 }
 
-/* Used to hide the loader after animation */
+
 .fade-out {
   opacity: 0;
 }
