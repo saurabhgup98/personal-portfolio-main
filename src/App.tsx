@@ -1,15 +1,14 @@
 import "./App.css";
-import { headerAnimationConfig } from "./constants";
-import { email, socialMedia } from "./constants/Constants";
-import Footer from "./components/others/Footer";
-import HexagonLoader from "./components/others/HexagonLoader";
-import Header from "./components/headers/Header";
-import PrimarySection from "./sections/PrimarySection";
+import { headerAnimationConfig, email, socialMedia } from "./constants/data";
+import Footer from "./components/layout/Footer";
+import { HexagonLoader } from "./components/ui/Loader";
+import Header from "./components/ui/Header";
+import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Experience from "./sections/Experience";
 import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
-import Social from "./components/others/Social";
+import Social from "./components/layout/Social";
 
 function App() {
   return (
@@ -24,7 +23,7 @@ function App() {
       </div>
       <div className="page-main-content">
         <div className="section-one">
-          <PrimarySection />
+          <Hero />
         </div>
         <div className="section-two" id="about">
           <About />
