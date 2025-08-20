@@ -1,4 +1,4 @@
-import PrimaryBtn from "../components/buttons/PrimaryBtn";
+import PrimaryBtn from "../components/ui/Button";
 import "./css/PrimarySection.css";
 
 const PrimarySection = () => {

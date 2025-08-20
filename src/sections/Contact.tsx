@@ -1,4 +1,4 @@
-import PrimaryBtn from '../components/buttons/PrimaryBtn';
+import PrimaryBtn from '../components/ui/Button';
 import { contactSectionDetails as details, mailtoLink } from '../constants/Constants';
 import './css/Contact.css';
 

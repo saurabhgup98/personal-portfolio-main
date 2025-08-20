@@ -1,6 +1,6 @@
-import './css/SectionHeading.css';
+import './SectionHeading.css';
 
-import type { SectionHeadingI } from '../../interfaces/CommonInterface';
+import type { SectionHeadingI } from '../../../interfaces/CommonInterface';
 
 const SectionHeading: React.FC<SectionHeadingI> = ({sectionNumber, sectionHeading}) => {
   return (

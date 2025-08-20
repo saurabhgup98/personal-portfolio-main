@@ -1,5 +1,5 @@
 import React, { useEffect, useState, type ReactNode } from 'react';
-import './css/HexagonLoader.css';
+import './HexagonLoader.css';
 
 interface HexagonLoaderProps {
   children: ReactNode;

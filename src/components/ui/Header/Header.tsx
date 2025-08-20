@@ -1,7 +1,7 @@
 // Header.tsx
 import { useEffect, useState } from "react";
-import "./css/Header.css";
-import Logo from "../others/Logo";
+import "./Header.css";
+import Logo from "../../layout/Logo";
 
 interface AnimationConfig {
   common: {
